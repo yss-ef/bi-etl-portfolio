@@ -1,37 +1,39 @@
-# Hotel Data Warehouse & BI Pipeline
+# BI & ETL Portfolio: Hotel Data Warehouse
 
-A complete Business Intelligence project demonstrating an end-to-end ETL pipeline for a Hotel Management system. This project extracts raw data from multiple sources, transforms it into a dimensional model (Star Schema), and prepares it for PowerBI reporting.
+A professional end-to-end Business Intelligence project demonstrating an automated ETL pipeline for a multi-location Hotel Management system. This portfolio showcases expertise in data modeling (Star Schema), ETL orchestration with Pentaho, and visual intelligence preparation.
 
-## 🏗 Project Architecture
+## Business Case: Hotel Chain Analytics
+The system centralizes fragmented data from various hotel branches to provide unified reporting. By consolidating customer profiles, reservation history, and room availability, the pipeline enables leadership to track critical KPIs such as occupancy rates and channel-specific revenue.
 
-The project is divided into four main phases:
+## Project Architecture
 
-1.  **Requirements**: Original project specifications and academic exercises.
-2.  **Data Sources**: Raw CSV files representing the source system (Clients, Hotels, Reservations, etc.).
-3.  **ETL Pipeline**: Built using Pentaho Data Integration (PDI).
-    *   **Orchestrator**: Master job to run the entire pipeline.
-    *   **Transformations**: Individual scripts to load Dimensions and Fact tables.
-4.  **Reporting & Dashboarding**: PowerBI data preparation and visualization.
+The project is structured into four specialized phases:
 
-## 🛠 Tech Stack
+1.  **Requirements**: Business logic definitions and analytical specification documents.
+2.  **Data Sources**: Raw source data representing the operational systems (Clients, Hotels, Reservations).
+3.  **ETL Pipeline**: Built using Pentaho Data Integration (PDI/Kettle).
+    *   **Orchestrator**: Master job to ensure transactional consistency across the pipeline.
+    *   **Transformations**: Specialized scripts for loading Dimensions and Fact tables.
+4.  **Reporting & Dashboarding**: Preparation for visual intelligence and dashboard consumption.
+
+## Tech Stack
 
 *   **ETL Tool**: Pentaho Data Integration (Kettle)
-*   **Source Data**: Flat files (CSV)
 *   **Data Modeling**: Star Schema (Dimensions & Facts)
-*   **Reporting**: PowerBI
+*   **Storage**: Relational Persistence & Flat Files
+*   **Visualization**: PowerBI Readiness
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 .
-├── requirements/                # Project instructions and exercises
-├── data_sources/                # Raw input data
-├── etl_pipeline/                # Pentaho ETL logic
-│   ├── orchestrator_job/        # Master job (KJB)
-│   └── transformations/         # ETL scripts (KTR)
-└── reporting_and_dashboarding/  # Dashboard assets
+├── requirements/                # Business specs & requirements
+├── data_sources/                # Raw operational data
+├── etl_pipeline/                # Automated ETL orchestration
+│   ├── orchestrator_job/        # Master pipeline job
+│   └── transformations/         # Dimension & Fact loading scripts
+└── reporting_and_dashboarding/  # KPI definitions & dashboard assets
 ```
 
-## ⚖️ License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+*Authored by Youssef Fellah.*
