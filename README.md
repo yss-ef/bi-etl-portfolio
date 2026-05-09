@@ -37,3 +37,4 @@ The project is structured into four specialized phases:
 
 ---
 *Authored by Youssef Fellah.*
+*Developed for the Engineering Cycle - Mundiapolis University.*

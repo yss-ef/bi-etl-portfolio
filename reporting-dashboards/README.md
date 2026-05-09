@@ -11,3 +11,7 @@ The data warehouse is prepared to expose the following business intelligence met
 ## Dashboard Design
 *   **Tool**: PowerBI / Tableau Readiness
 *   **Structure**: Hierarchical drill-down from global chain performance to individual room metrics.
+
+---
+*Authored by Youssef Fellah.*
+*Developed for the Engineering Cycle - Mundiapolis University.*
