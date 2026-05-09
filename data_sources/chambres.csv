@@ -1,0 +1,7 @@
+id_chambre,id_chambre_source,type_chambre,categorie,prix_nuit
+1,301,Simple,Standard,450.00
+2,302,Double,Standard,650.00
+3,303,Suite Junior,Premium,950.00
+4,304,Suite Senior,Premium,1400.00
+5,305,Familiale,Famille,1100.00
+6,306,Deluxe,Luxe,1800.00

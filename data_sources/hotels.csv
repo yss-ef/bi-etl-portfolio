@@ -1,0 +1,6 @@
+id_hotel,id_hotel_source,nom_hotel,ville,region,pays,capacite_totale
+1,201,Atlas Palace,Marrakech,Marrakech-Safi,Maroc,120
+2,202,Ocean View,Agadir,Souss-Massa,Maroc,90
+3,203,Royal Stay,Casablanca,Casablanca-Settat,Maroc,150
+4,204,Blue Resort,Tanger,Tanger-Tétouan-Al Hoceïma,Maroc,110
+5,205,Sahara Lodge,Ouarzazate,Drâa-Tafilalet,Maroc,70
