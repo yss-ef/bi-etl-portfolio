@@ -20,6 +20,5 @@ The pipeline is designed using a **Star Schema** architecture to optimize analyt
 *   **Tool**: Pentaho Kettle (PDI)
 *   **Patterns**: Change Data Capture (CDC) simulations and surrogate key management.
 
----
-*Authored by Youssef Fellah.*
-*Developed for the Engineering Cycle - Mundiapolis University.*
+Authored by Youssef Fellah.  
+Developed for the Engineering Cycle - Mundiapolis University.

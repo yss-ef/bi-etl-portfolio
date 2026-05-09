@@ -35,6 +35,5 @@ The project is structured into four specialized phases:
 └── reporting-dashboards/        # KPI definitions & dashboard assets
 ```
 
----
-*Authored by Youssef Fellah.*
-*Developed for the Engineering Cycle - Mundiapolis University.*
+Authored by Youssef Fellah.  
+Developed for the Engineering Cycle - Mundiapolis University.
