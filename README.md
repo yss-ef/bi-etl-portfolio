@@ -28,11 +28,11 @@ The project is structured into four specialized phases:
 ```text
 .
 ├── requirements/                # Business specs & requirements
-├── data_sources/                # Raw operational data
-├── etl_pipeline/                # Automated ETL orchestration
+├── data-sources/                # Raw operational data
+├── etl-pipeline/                # Automated ETL orchestration
 │   ├── orchestrator_job/        # Master pipeline job
 │   └── transformations/         # Dimension & Fact loading scripts
-└── reporting_and_dashboarding/  # KPI definitions & dashboard assets
+└── reporting-dashboards/        # KPI definitions & dashboard assets
 ```
 
 ---
