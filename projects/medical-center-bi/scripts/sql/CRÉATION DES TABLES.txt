@@ -1,0 +1,94 @@
+-- ============================================================================
+-- 1. CRÉATION DES TABLES DE DIMENSIONS
+-- ============================================================================
+
+-- Dimension Patient
+CREATE TABLE dim_patient (
+    pk_patient SERIAL PRIMARY KEY,
+    id_patient INT NOT NULL,              -- Identifiant source
+    nom_patient VARCHAR(150) NOT NULL,
+    ville VARCHAR(100) NOT NULL,
+    sexe VARCHAR(10) NOT NULL,
+    age INT NOT NULL,
+    categorie_patient VARCHAR(50) NOT NULL
+);
+
+-- Dimension Médecin
+CREATE TABLE dim_medecin (
+    pk_medecin SERIAL PRIMARY KEY,
+    id_medecin INT NOT NULL,              -- Identifiant source
+    nom_medecin VARCHAR(150) NOT NULL,
+    specialite VARCHAR(100) NOT NULL,
+    grade VARCHAR(50) NOT NULL
+);
+
+-- Dimension Service
+CREATE TABLE dim_service (
+    pk_service SERIAL PRIMARY KEY,
+    id_service INT NOT NULL,              -- Identifiant source
+    nom_service VARCHAR(150) NOT NULL,
+    categorie_service VARCHAR(100) NOT NULL,
+    tarif_standard DECIMAL(10, 2) NOT NULL
+);
+
+-- Dimension Paiement
+CREATE TABLE dim_paiement (
+    pk_paiement SERIAL PRIMARY KEY,
+    id_paiement INT NOT NULL,            -- Identifiant source
+    mode_paiement VARCHAR(50) NOT NULL
+);
+
+-- Dimension Temps
+CREATE TABLE dim_temps (
+    pk_date DATE PRIMARY KEY,            -- Utilisation directe de la date comme clé primaire
+    jour INT NOT NULL,
+    mois INT NOT NULL,
+    annee INT NOT NULL,
+    trimestre INT NOT NULL,
+    jour_semaine VARCHAR(15) NOT NULL,
+    nom_mois VARCHAR(15) NOT NULL
+);
+
+-- ============================================================================
+-- 2. CRÉATION DE LA TABLE DE FAITS
+-- ============================================================================
+
+CREATE TABLE fact_consultation (
+    -- Clés étrangères (Clé primaire composite facultative ou clé de substitution globale)
+    fk_patient INT NOT NULL,
+    fk_medecin INT NOT NULL,
+    fk_service INT NOT NULL,
+    fk_paiement INT NOT NULL,
+    fk_date DATE NOT NULL,
+    
+    -- Attributs de statuts (Degenerate Dimensions / Axes d'analyse directs)
+    statut_consultation VARCHAR(50) NOT NULL,
+    statut_payment VARCHAR(50) NOT NULL,
+    
+    -- Mesures numériques
+    montant_brut DECIMAL(10, 2) NOT NULL,
+    montant_remise DECIMAL(10, 2) NOT NULL,
+    montant_net DECIMAL(10, 2) NOT NULL,
+    nombre_consultations INT DEFAULT 1 NOT NULL,
+    retard_en_minutes INT NOT NULL,
+    indicateur_consultation_en_retard INT NOT NULL, -- 1 pour en retard, 0 sinon
+    
+    -- Contraintes d'intégrité référentielle
+    CONSTRAINT fk_fact_patient FOREIGN KEY (fk_patient) REFERENCES dim_patient(pk_patient),
+    CONSTRAINT fk_fact_medecin FOREIGN KEY (fk_medecin) REFERENCES dim_medecin(pk_medecin),
+    CONSTRAINT fk_fact_service FOREIGN KEY (fk_service) REFERENCES dim_service(pk_service),
+    CONSTRAINT fk_fact_paiement FOREIGN KEY (fk_paiement) REFERENCES dim_paiement(pk_paiement),
+    CONSTRAINT fk_fact_temps FOREIGN KEY (fk_date) REFERENCES dim_temps(pk_date),
+    
+    -- Définition d'une clé primaire composite pour garantir l'unicité des lignes de faits
+    PRIMARY KEY (fk_patient, fk_medecin, fk_service, fk_paiement, fk_date, statut_consultation)
+);
+
+-- ============================================================================
+-- 3. CRÉATION DES INDEX POUR OPTIMISER LES PERFORMANCES DES REQUÊTES BI
+-- ============================================================================
+CREATE INDEX idx_fact_patient ON fact_consultation(fk_patient);
+CREATE INDEX idx_fact_medecin ON fact_consultation(fk_medecin);
+CREATE INDEX idx_fact_service ON fact_consultation(fk_service);
+CREATE INDEX idx_fact_paiement ON fact_consultation(fk_paiement);
+CREATE INDEX idx_fact_date ON fact_consultation(fk_date);

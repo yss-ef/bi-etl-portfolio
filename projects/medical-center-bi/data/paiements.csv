@@ -1,0 +1,13 @@
+id_paiement;mode_paiement;statut_paiement
+PAY001;Espèces;Payé
+PAY002;Espèces;Partiel
+PAY003;Espèces;Non payé
+PAY004;Carte bancaire;Payé
+PAY005;Carte bancaire;Partiel
+PAY006;Carte bancaire;Non payé
+PAY007;Virement;Payé
+PAY008;Virement;Partiel
+PAY009;Virement;Non payé
+PAY010;Assurance;Payé
+PAY011;Assurance;Partiel
+PAY012;Assurance;Non payé

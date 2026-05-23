@@ -1,0 +1,29 @@
+id_service;nom_service;categorie_service;tarif_standard
+SRV001;Consultation générale;Consultation;250
+SRV002;Consultation cardiologie;Consultation;450
+SRV003;Consultation dermatologie;Consultation;350
+SRV004;Consultation pédiatrie;Consultation;300
+SRV005;Consultation gynécologie;Consultation;400
+SRV006;Consultation ophtalmologie;Consultation;350
+SRV007;Consultation ORL;Consultation;320
+SRV008;Contrôle général;Contrôle;150
+SRV009;Contrôle cardiologie;Contrôle;250
+SRV010;Contrôle grossesse;Contrôle;220
+SRV011;Électrocardiogramme;Analyse;300
+SRV012;Échographie;Analyse;450
+SRV013;Analyse sanguine standard;Analyse;180
+SRV014;Bilan lipidique;Analyse;160
+SRV015;Bilan diabète;Analyse;190
+SRV016;Radiographie;Analyse;350
+SRV017;Scanner simple;Analyse;900
+SRV018;IRM simple;Analyse;1300
+SRV019;Urgence simple;Urgence;500
+SRV020;Urgence spécialisée;Urgence;750
+SRV021;Test allergie;Analyse;300
+SRV022;Consultation neurologie;Consultation;500
+SRV023;Consultation endocrinologie;Consultation;420
+SRV024;Consultation gastro-entérologie;Consultation;430
+SRV025;Consultation rhumatologie;Consultation;390
+SRV026;Vaccination enfant;Consultation;200
+SRV027;Soin infirmier;Consultation;120
+SRV028;Téléconsultation;Consultation;180
