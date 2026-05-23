@@ -1,0 +1,83 @@
+-- ============================================================================
+-- 1. CRÉATION DES TABLES DE DIMENSIONS
+-- ============================================================================
+
+-- Dimension Client
+CREATE TABLE dim_client (
+    client_pk SERIAL PRIMARY KEY,          -- Clé technique auto-incrémentée
+    id_client VARCHAR(50) NOT NULL,        -- Identifiant source du CSV
+    nom_client VARCHAR(150),
+    ville VARCHAR(100),
+    pays VARCHAR(100),
+    segment VARCHAR(50),                   -- Particulier, Professionnel, Premium
+    CONSTRAINT uq_dim_client_id UNIQUE (id_client)
+);
+
+-- Dimension Produit
+CREATE TABLE dim_produit (
+    produit_pk SERIAL PRIMARY KEY,        -- Clé technique auto-incrémentée
+    id_produit VARCHAR(50) NOT NULL,      -- Identifiant source du CSV
+    nom_produit VARCHAR(255),
+    categorie VARCHAR(100),
+    marque VARCHAR(100),
+    prix_unitaire NUMERIC(12, 2),          -- Stocké pour vérification/historique
+    CONSTRAINT uq_dim_produit_id UNIQUE (id_produit)
+);
+
+-- Dimension Transporteur
+CREATE TABLE dim_transporteur (
+    trans_pk SERIAL PRIMARY KEY,          -- Clé technique auto-incrémentée
+    id_transporteur VARCHAR(50) NOT NULL, -- Identifiant source du CSV
+    nom_transporteur VARCHAR(150),
+    type_livraison VARCHAR(50),           -- Standard, Express, Point relais
+    CONSTRAINT uq_dim_trans_id UNIQUE (id_transporteur)
+);
+
+-- Dimension Temps
+CREATE TABLE dim_temps (
+    temps_pk INT PRIMARY KEY,             -- Format AAAAMMJJ (ex: 20260522)
+    date_complete DATE NOT NULL,
+    annee INT NOT NULL,
+    mois INT NOT NULL,
+    nom_mois VARCHAR(20),
+    jour INT NOT NULL,
+    CONSTRAINT uq_dim_temps_date UNIQUE (date_complete)
+);
+
+-- ============================================================================
+-- 2. CRÉATION DE LA TABLE DE FAITS
+-- ============================================================================
+
+CREATE TABLE fact_commande (
+    fact_id SERIAL PRIMARY KEY,           -- Clé technique propre à la table de faits
+    
+    -- Clés étrangères vers les dimensions
+    client_pk INT NOT NULL,
+    produit_pk INT NOT NULL,
+    trans_pk INT NOT NULL,
+    temps_pk INT NOT NULL,                -- Lié à la date de commande
+    
+    -- Informations de contexte/Clés sources
+    id_commande VARCHAR(50) NOT NULL,
+    statut_commande VARCHAR(50),          -- Livrée, annulée, en cours
+    
+    -- Mesures numériques
+    quantite INT NOT NULL,
+    montant_brut NUMERIC(12, 2) NOT NULL,
+    montant_remise NUMERIC(12, 2) NOT NULL,
+    montant_net NUMERIC(12, 2) NOT NULL,
+    retard_jours INT NOT NULL,
+    indicateur_livraison_en_retard INT NOT NULL, -- 1 si en retard, 0 sinon
+    
+    -- Contraintes de clés étrangères
+    CONSTRAINT fk_fact_client FOREIGN KEY (client_pk) REFERENCES dim_client(client_pk),
+    CONSTRAINT fk_fact_produit FOREIGN KEY (produit_pk) REFERENCES dim_produit(produit_pk),
+    CONSTRAINT fk_fact_trans FOREIGN KEY (trans_pk) REFERENCES dim_transporteur(trans_pk),
+    CONSTRAINT fk_fact_temps FOREIGN KEY (temps_pk) REFERENCES dim_temps(temps_pk)
+);
+
+-- Index pour optimiser les performances des jointures de l'outil de Dataviz
+CREATE INDEX idx_fact_client ON fact_commande(client_pk);
+CREATE INDEX idx_fact_produit ON fact_commande(produit_pk);
+CREATE INDEX idx_fact_trans ON fact_commande(trans_pk);
+CREATE INDEX idx_fact_temps ON fact_commande(temps_pk);

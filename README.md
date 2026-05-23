@@ -1,39 +1,45 @@
-# BI & ETL Portfolio: Hotel Data Warehouse
+# BI & ETL Portfolio: Data Engineering & Analytics
 
-A professional end-to-end Business Intelligence project demonstrating an automated ETL pipeline for a multi-location Hotel Management system. This portfolio showcases expertise in data modeling (Star Schema), ETL orchestration with Pentaho, and visual intelligence preparation.
-
-## Business Case: Hotel Chain Analytics
-The system centralizes fragmented data from various hotel branches to provide unified reporting. By consolidating customer profiles, reservation history, and room availability, the pipeline enables leadership to track critical KPIs such as occupancy rates and channel-specific revenue.
-
-## Project Architecture
-
-The project is structured into four specialized phases:
-
-1.  **Requirements**: Business logic definitions and analytical specification documents.
-2.  **Data Sources**: Raw source data representing the operational systems (Clients, Hotels, Reservations).
-3.  **ETL Pipeline**: Built using Pentaho Data Integration (PDI/Kettle).
-    *   **Orchestrator**: Master job to ensure transactional consistency across the pipeline.
-    *   **Transformations**: Specialized scripts for loading Dimensions and Fact tables.
-4.  **Reporting & Dashboarding**: Preparation for visual intelligence and dashboard consumption.
-
-## Tech Stack
-
-*   **ETL Tool**: Pentaho Data Integration (Kettle)
-*   **Data Modeling**: Star Schema (Dimensions & Facts)
-*   **Storage**: Relational Persistence & Flat Files
-*   **Visualization**: PowerBI Readiness
+This repository contains a collection of Business Intelligence and ETL labs and assignments, demonstrating end-to-end data warehousing solutions.
 
 ## Repository Structure
 
 ```text
 .
-├── requirements/                # Business specs & requirements
-├── data-sources/                # Raw operational data
-├── etl-pipeline/                # Automated ETL orchestration
-│   ├── orchestrator_job/        # Master pipeline job
-│   └── transformations/         # Dimension & Fact loading scripts
-└── reporting-dashboards/        # KPI definitions & dashboard assets
+├── labs/                        # Academic Labs (Hotel BI Project)
+│   ├── lab1/                    # BI Foundations
+│   ├── lab2/                    # Data Modeling & Star Schemas
+│   ├── lab3/                    # ETL Processes & Pentaho Basics
+│   └── lab4/                    # Final Hotel Data Warehouse
+│       ├── business-requirements-04.pdf
+│       └── hotel-data-warehouse/ # Hotel Analytics System
+│           ├── data-sources/    # Raw Operational Data
+│           ├── etl-pipeline/    # PDI/Kettle Orchestration
+│           └── reports/         # KPI Dashboards
+├── projects/                    # Major Projects & Assignments
+│   └── e-commerce-bi-assignment/ # E-Commerce Sales & Logistics Analysis
+│       ├── data/                # Raw CSV Sources
+│       ├── etl/                 # Pentaho ETL Transformations
+│       ├── sql/                 # Database Schema (PostgreSQL)
+│       └── docs/                # Final Report & Visualizations
+└── LICENSE                      # Project License
 ```
 
-Authored by Youssef Fellah.  
-Developed for the Engineering Cycle - Mundiapolis University.
+---
+
+## Featured Projects
+
+### 1. Hotel Data Warehouse (Lab 4)
+*   **Location:** `labs/lab4/hotel-data-warehouse/`
+*   **Focus:** Centralizing fragmented hotel data into a unified Star Schema for operational reporting.
+*   **Tech:** Pentaho Data Integration, Star Schema, PowerBI readiness.
+
+### 2. E-Commerce Sales & Logistics Assignment
+*   **Location:** `projects/e-commerce-bi-assignment/`
+*   **Focus:** Analyzing sales performance and logistics efficiency for an e-commerce platform. Includes customer segmentation and carrier performance tracking.
+*   **Tech:** PostgreSQL, Pentaho (PDI), Metabase Dashboarding.
+
+---
+
+**Authored by Youssef Fellah**  
+*Engineering Student at Mundiapolis University*

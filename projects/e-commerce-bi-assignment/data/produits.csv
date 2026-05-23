@@ -1,0 +1,301 @@
+id_produit,nom_produit,categorie,marque,prix_unitaire
+P0001,Livre Python DigitalPro 1,Livres,DigitalPro,135.0
+P0002,Livre Data SmartLine 2,Livres,SmartLine,235.31
+P0003,Disque SSD Alpha 3,Informatique,Alpha,983.2
+P0004,Vélo d'appartement Orion 4,Sport,Orion,572.88
+P0005,T-shirt Alpha 5,Mode,Alpha,711.13
+P0006,Mixeur CasaPro 6,Électroménager,CasaPro,1063.79
+P0007,Parfum EcoPlus 7,Beauté,EcoPlus,1052.32
+P0008,Livre Business DigitalPro 8,Livres,DigitalPro,170.6
+P0009,Table AtlasTech 9,Maison,AtlasTech,276.48
+P0010,Shampoing EcoPlus 10,Beauté,EcoPlus,222.5
+P0011,Vélo d'appartement Orion 11,Sport,Orion,1214.97
+P0012,Aspirateur Nova 12,Électroménager,Nova,10973.02
+P0013,Parfum DigitalPro 13,Beauté,DigitalPro,946.19
+P0014,T-shirt Zenith 14,Mode,Zenith,1560.46
+P0015,Ballon AtlasTech 15,Sport,AtlasTech,418.74
+P0016,Livre Data Orion 16,Livres,Orion,567.22
+P0017,Coque EcoPlus 17,Téléphonie,EcoPlus,6368.13
+P0018,Écran CasaPro 18,Informatique,CasaPro,7702.94
+P0019,Smartphone SmartLine 19,Téléphonie,SmartLine,9012.06
+P0020,Veste DigitalPro 20,Mode,DigitalPro,1947.24
+P0021,Crème Nova 21,Beauté,Nova,275.42
+P0022,Sac AtlasTech 22,Mode,AtlasTech,957.13
+P0023,Tapis de sport EcoPlus 23,Sport,EcoPlus,2246.8
+P0024,Coque Orion 24,Téléphonie,Orion,5115.13
+P0025,Ballon DigitalPro 25,Sport,DigitalPro,1093.33
+P0026,Tapis de sport CasaPro 26,Sport,CasaPro,1174.12
+P0027,Haltères DigitalPro 27,Sport,DigitalPro,1507.48
+P0028,Sèche-cheveux EcoPlus 28,Beauté,EcoPlus,1018.76
+P0029,Shampoing Zenith 29,Beauté,Zenith,1127.34
+P0030,Smartphone MaghrebStore 30,Téléphonie,MaghrebStore,1303.25
+P0031,Disque SSD Alpha 31,Informatique,Alpha,1468.18
+P0032,Coque DigitalPro 32,Téléphonie,DigitalPro,7079.49
+P0033,Casque EcoPlus 33,Informatique,EcoPlus,10257.54
+P0034,Chemise Orion 34,Mode,Orion,1401.39
+P0035,Chargeur Orion 35,Téléphonie,Orion,11418.98
+P0036,Vélo d'appartement Alpha 36,Sport,Alpha,2274.58
+P0037,Parfum Nova 37,Beauté,Nova,945.17
+P0038,Lampe EcoPlus 38,Maison,EcoPlus,803.12
+P0039,Crème AtlasTech 39,Beauté,AtlasTech,1083.22
+P0040,Parfum AtlasTech 40,Beauté,AtlasTech,60.71
+P0041,Sac de sport Zenith 41,Sport,Zenith,827.8
+P0042,Micro-ondes Alpha 42,Électroménager,Alpha,3091.52
+P0043,Crème Zenith 43,Beauté,Zenith,783.99
+P0044,Disque SSD Alpha 44,Informatique,Alpha,1764.23
+P0045,Crème Alpha 45,Beauté,Alpha,1087.88
+P0046,Aspirateur SmartLine 46,Électroménager,SmartLine,1420.04
+P0047,Micro-ondes MaghrebStore 47,Électroménager,MaghrebStore,7669.43
+P0048,Shampoing DigitalPro 48,Beauté,DigitalPro,216.09
+P0049,Haltères MaghrebStore 49,Sport,MaghrebStore,278.5
+P0050,Parfum Zenith 50,Beauté,Zenith,209.07
+P0051,Power Bank Alpha 51,Téléphonie,Alpha,547.16
+P0052,Aspirateur Nova 52,Électroménager,Nova,2442.02
+P0053,Chaussures SmartLine 53,Mode,SmartLine,1361.77
+P0054,Veste EcoPlus 54,Mode,EcoPlus,1665.18
+P0055,Chaise CasaPro 55,Maison,CasaPro,1587.22
+P0056,Smartphone Orion 56,Téléphonie,Orion,11144.59
+P0057,Smartphone CasaPro 57,Téléphonie,CasaPro,3568.94
+P0058,Mixeur MaghrebStore 58,Électroménager,MaghrebStore,6057.38
+P0059,Haltères Alpha 59,Sport,Alpha,296.65
+P0060,Écran MaghrebStore 60,Informatique,MaghrebStore,5966.58
+P0061,Chargeur Alpha 61,Téléphonie,Alpha,4659.24
+P0062,Vélo d'appartement CasaPro 62,Sport,CasaPro,490.53
+P0063,Souris Zenith 63,Informatique,Zenith,7666.76
+P0064,PC Portable Nova 64,Informatique,Nova,11926.44
+P0065,Livre IA Zenith 65,Livres,Zenith,373.35
+P0066,Micro-ondes EcoPlus 66,Électroménager,EcoPlus,11137.35
+P0067,Sac AtlasTech 67,Mode,AtlasTech,1363.09
+P0068,Réfrigérateur Nova 68,Électroménager,Nova,1598.76
+P0069,T-shirt Nova 69,Mode,Nova,389.48
+P0070,Chargeur EcoPlus 70,Téléphonie,EcoPlus,3465.58
+P0071,T-shirt Nova 71,Mode,Nova,1784.8
+P0072,Rideaux Orion 72,Maison,Orion,1118.35
+P0073,Crème EcoPlus 73,Beauté,EcoPlus,232.36
+P0074,Rideaux MaghrebStore 74,Maison,MaghrebStore,1479.94
+P0075,Table SmartLine 75,Maison,SmartLine,2386.72
+P0076,Livre Business Orion 76,Livres,Orion,298.48
+P0077,Lampe Zenith 77,Maison,Zenith,313.52
+P0078,Sèche-cheveux SmartLine 78,Beauté,SmartLine,693.56
+P0079,Tapis de sport Orion 79,Sport,Orion,459.76
+P0080,Disque SSD EcoPlus 80,Informatique,EcoPlus,7145.71
+P0081,Tapis DigitalPro 81,Maison,DigitalPro,913.02
+P0082,PC Portable CasaPro 82,Informatique,CasaPro,9756.23
+P0083,Crème Nova 83,Beauté,Nova,317.02
+P0084,Chaussures Nova 84,Mode,Nova,405.35
+P0085,Tapis de sport AtlasTech 85,Sport,AtlasTech,830.54
+P0086,Casque Nova 86,Informatique,Nova,2761.83
+P0087,Haltères DigitalPro 87,Sport,DigitalPro,212.28
+P0088,Tapis SmartLine 88,Maison,SmartLine,1341.79
+P0089,Power Bank EcoPlus 89,Téléphonie,EcoPlus,8666.12
+P0090,Power Bank Alpha 90,Téléphonie,Alpha,8265.05
+P0091,Shampoing Nova 91,Beauté,Nova,261.84
+P0092,Écran Orion 92,Informatique,Orion,799.8
+P0093,Rideaux MaghrebStore 93,Maison,MaghrebStore,354.03
+P0094,Micro-ondes Nova 94,Électroménager,Nova,7196.26
+P0095,Sac AtlasTech 95,Mode,AtlasTech,748.34
+P0096,Écran EcoPlus 96,Informatique,EcoPlus,1789.93
+P0097,Parfum DigitalPro 97,Beauté,DigitalPro,1104.1
+P0098,Clavier AtlasTech 98,Informatique,AtlasTech,1066.09
+P0099,Coque EcoPlus 99,Téléphonie,EcoPlus,3477.41
+P0100,Vélo d'appartement MaghrebStore 100,Sport,MaghrebStore,1413.3
+P0101,Vélo d'appartement Zenith 101,Sport,Zenith,165.33
+P0102,Rideaux Orion 102,Maison,Orion,2129.25
+P0103,Écouteurs Zenith 103,Téléphonie,Zenith,1457.24
+P0104,T-shirt AtlasTech 104,Mode,AtlasTech,389.9
+P0105,Vélo d'appartement SmartLine 105,Sport,SmartLine,466.97
+P0106,Chaussures DigitalPro 106,Mode,DigitalPro,2474.43
+P0107,Clavier AtlasTech 107,Informatique,AtlasTech,1551.94
+P0108,Chaise EcoPlus 108,Maison,EcoPlus,856.86
+P0109,Shampoing CasaPro 109,Beauté,CasaPro,1112.08
+P0110,Livre Python CasaPro 110,Livres,CasaPro,234.79
+P0111,Micro-ondes Alpha 111,Électroménager,Alpha,7733.62
+P0112,Power Bank DigitalPro 112,Téléphonie,DigitalPro,3076.15
+P0113,Livre Business EcoPlus 113,Livres,EcoPlus,236.37
+P0114,Livre Data MaghrebStore 114,Livres,MaghrebStore,200.93
+P0115,Chaise Nova 115,Maison,Nova,1418.36
+P0116,Chemise MaghrebStore 116,Mode,MaghrebStore,234.1
+P0117,Livre Python SmartLine 117,Livres,SmartLine,48.01
+P0118,Veste Alpha 118,Mode,Alpha,510.4
+P0119,Écouteurs SmartLine 119,Téléphonie,SmartLine,9814.45
+P0120,Ballon Orion 120,Sport,Orion,1655.46
+P0121,Chargeur SmartLine 121,Téléphonie,SmartLine,11021.19
+P0122,Sèche-cheveux Zenith 122,Beauté,Zenith,630.75
+P0123,Crème MaghrebStore 123,Beauté,MaghrebStore,355.07
+P0124,Machine à laver Zenith 124,Électroménager,Zenith,7868.5
+P0125,Aspirateur MaghrebStore 125,Électroménager,MaghrebStore,9004.06
+P0126,T-shirt Orion 126,Mode,Orion,508.22
+P0127,Écran DigitalPro 127,Informatique,DigitalPro,5568.53
+P0128,Chaise DigitalPro 128,Maison,DigitalPro,255.96
+P0129,Crème CasaPro 129,Beauté,CasaPro,494.41
+P0130,Tondeuse Nova 130,Beauté,Nova,92.19
+P0131,Lampe MaghrebStore 131,Maison,MaghrebStore,170.38
+P0132,Sèche-cheveux SmartLine 132,Beauté,SmartLine,373.99
+P0133,Crème Zenith 133,Beauté,Zenith,352.83
+P0134,Livre IA Alpha 134,Livres,Alpha,106.6
+P0135,Casque SmartLine 135,Informatique,SmartLine,11517.92
+P0136,T-shirt AtlasTech 136,Mode,AtlasTech,2242.89
+P0137,Table MaghrebStore 137,Maison,MaghrebStore,1353.72
+P0138,Table Zenith 138,Maison,Zenith,1763.81
+P0139,Sèche-cheveux Alpha 139,Beauté,Alpha,148.53
+P0140,Rideaux SmartLine 140,Maison,SmartLine,469.02
+P0141,Chaussures EcoPlus 141,Mode,EcoPlus,1779.34
+P0142,Chaise MaghrebStore 142,Maison,MaghrebStore,503.44
+P0143,Roman SmartLine 143,Livres,SmartLine,143.84
+P0144,Chargeur CasaPro 144,Téléphonie,CasaPro,4152.82
+P0145,Livre Data AtlasTech 145,Livres,AtlasTech,446.28
+P0146,Shampoing AtlasTech 146,Beauté,AtlasTech,237.69
+P0147,Chaise CasaPro 147,Maison,CasaPro,1714.05
+P0148,Disque SSD Nova 148,Informatique,Nova,11642.11
+P0149,Écran SmartLine 149,Informatique,SmartLine,5802.68
+P0150,PC Portable Zenith 150,Informatique,Zenith,8240.54
+P0151,Table DigitalPro 151,Maison,DigitalPro,1282.71
+P0152,Mixeur MaghrebStore 152,Électroménager,MaghrebStore,3829.08
+P0153,Vélo d'appartement Orion 153,Sport,Orion,1850.3
+P0154,Rideaux EcoPlus 154,Maison,EcoPlus,942.51
+P0155,Clavier EcoPlus 155,Informatique,EcoPlus,8594.35
+P0156,Livre Python EcoPlus 156,Livres,EcoPlus,458.33
+P0157,Souris Alpha 157,Informatique,Alpha,10311.12
+P0158,Machine à laver Orion 158,Électroménager,Orion,613.13
+P0159,Shampoing SmartLine 159,Beauté,SmartLine,900.91
+P0160,Veste MaghrebStore 160,Mode,MaghrebStore,2415.36
+P0161,Livre IA CasaPro 161,Livres,CasaPro,201.84
+P0162,Ballon Alpha 162,Sport,Alpha,1493.41
+P0163,Lampe SmartLine 163,Maison,SmartLine,150.69
+P0164,Sac de sport MaghrebStore 164,Sport,MaghrebStore,1111.98
+P0165,Livre IA Nova 165,Livres,Nova,215.93
+P0166,Écran CasaPro 166,Informatique,CasaPro,5729.23
+P0167,Micro-ondes EcoPlus 167,Électroménager,EcoPlus,7579.59
+P0168,Machine à laver Orion 168,Électroménager,Orion,3637.05
+P0169,Chaise Orion 169,Maison,Orion,150.34
+P0170,Tapis MaghrebStore 170,Maison,MaghrebStore,180.32
+P0171,Chaise Alpha 171,Maison,Alpha,913.03
+P0172,PC Portable EcoPlus 172,Informatique,EcoPlus,1868.2
+P0173,Tapis DigitalPro 173,Maison,DigitalPro,429.84
+P0174,Écouteurs CasaPro 174,Téléphonie,CasaPro,11951.99
+P0175,Veste Zenith 175,Mode,Zenith,2299.74
+P0176,Table AtlasTech 176,Maison,AtlasTech,1209.29
+P0177,Haltères Alpha 177,Sport,Alpha,1085.28
+P0178,Écouteurs EcoPlus 178,Téléphonie,EcoPlus,7265.21
+P0179,Micro-ondes Alpha 179,Électroménager,Alpha,8227.35
+P0180,Sac de sport CasaPro 180,Sport,CasaPro,1724.14
+P0181,Chaussures CasaPro 181,Mode,CasaPro,1069.97
+P0182,Chaussures EcoPlus 182,Mode,EcoPlus,259.71
+P0183,Livre IA CasaPro 183,Livres,CasaPro,269.34
+P0184,Parfum CasaPro 184,Beauté,CasaPro,646.09
+P0185,Sac de sport Nova 185,Sport,Nova,1197.53
+P0186,Sèche-cheveux Alpha 186,Beauté,Alpha,1154.89
+P0187,Livre Python DigitalPro 187,Livres,DigitalPro,56.12
+P0188,Parfum CasaPro 188,Beauté,CasaPro,749.79
+P0189,Table Zenith 189,Maison,Zenith,1304.91
+P0190,Micro-ondes DigitalPro 190,Électroménager,DigitalPro,10823.97
+P0191,Chaise Alpha 191,Maison,Alpha,358.54
+P0192,Écran DigitalPro 192,Informatique,DigitalPro,5657.59
+P0193,PC Portable AtlasTech 193,Informatique,AtlasTech,3424.55
+P0194,Écouteurs Zenith 194,Téléphonie,Zenith,1394.44
+P0195,Tapis Orion 195,Maison,Orion,1741.95
+P0196,PC Portable Zenith 196,Informatique,Zenith,8174.35
+P0197,Casque SmartLine 197,Informatique,SmartLine,6316.1
+P0198,Livre Data SmartLine 198,Livres,SmartLine,585.98
+P0199,Machine à laver EcoPlus 199,Électroménager,EcoPlus,8699.92
+P0200,Écran Zenith 200,Informatique,Zenith,8331.35
+P0201,Smartphone AtlasTech 201,Téléphonie,AtlasTech,2048.01
+P0202,Power Bank MaghrebStore 202,Téléphonie,MaghrebStore,3154.67
+P0203,Coque AtlasTech 203,Téléphonie,AtlasTech,10034.54
+P0204,Livre Business AtlasTech 204,Livres,AtlasTech,604.89
+P0205,Rideaux Orion 205,Maison,Orion,2457.61
+P0206,Sac EcoPlus 206,Mode,EcoPlus,2063.13
+P0207,Livre IA MaghrebStore 207,Livres,MaghrebStore,303.74
+P0208,Souris CasaPro 208,Informatique,CasaPro,9867.96
+P0209,Chemise DigitalPro 209,Mode,DigitalPro,1867.08
+P0210,Veste Orion 210,Mode,Orion,760.59
+P0211,Power Bank Orion 211,Téléphonie,Orion,4566.24
+P0212,Rideaux Alpha 212,Maison,Alpha,1759.25
+P0213,Coque Alpha 213,Téléphonie,Alpha,9808.55
+P0214,Mixeur EcoPlus 214,Électroménager,EcoPlus,5620.72
+P0215,Parfum Zenith 215,Beauté,Zenith,384.23
+P0216,Livre Python Nova 216,Livres,Nova,627.31
+P0217,Livre Business EcoPlus 217,Livres,EcoPlus,45.56
+P0218,Machine à laver DigitalPro 218,Électroménager,DigitalPro,10306.11
+P0219,Chaussures DigitalPro 219,Mode,DigitalPro,1007.03
+P0220,Chargeur CasaPro 220,Téléphonie,CasaPro,4384.44
+P0221,Vélo d'appartement CasaPro 221,Sport,CasaPro,731.93
+P0222,Rideaux MaghrebStore 222,Maison,MaghrebStore,2294.59
+P0223,Livre Business Orion 223,Livres,Orion,409.56
+P0224,Micro-ondes DigitalPro 224,Électroménager,DigitalPro,9360.93
+P0225,Table Nova 225,Maison,Nova,1492.69
+P0226,Sac de sport Zenith 226,Sport,Zenith,2083.22
+P0227,Smartphone AtlasTech 227,Téléphonie,AtlasTech,10261.37
+P0228,Réfrigérateur MaghrebStore 228,Électroménager,MaghrebStore,8066.82
+P0229,Livre Business Nova 229,Livres,Nova,503.54
+P0230,T-shirt CasaPro 230,Mode,CasaPro,1834.0
+P0231,Sèche-cheveux MaghrebStore 231,Beauté,MaghrebStore,102.45
+P0232,Chaise AtlasTech 232,Maison,AtlasTech,2124.66
+P0233,Coque Nova 233,Téléphonie,Nova,7376.77
+P0234,Souris Nova 234,Informatique,Nova,1515.02
+P0235,Livre Business CasaPro 235,Livres,CasaPro,643.21
+P0236,Chemise EcoPlus 236,Mode,EcoPlus,1253.2
+P0237,Table SmartLine 237,Maison,SmartLine,1868.28
+P0238,Tondeuse SmartLine 238,Beauté,SmartLine,130.64
+P0239,Casque MaghrebStore 239,Informatique,MaghrebStore,2641.59
+P0240,Mixeur Nova 240,Électroménager,Nova,9349.03
+P0241,Écouteurs CasaPro 241,Téléphonie,CasaPro,8267.74
+P0242,Livre Data SmartLine 242,Livres,SmartLine,387.93
+P0243,Livre IA Nova 243,Livres,Nova,257.46
+P0244,Mixeur Orion 244,Électroménager,Orion,5273.26
+P0245,Parfum Zenith 245,Beauté,Zenith,121.43
+P0246,Chaise MaghrebStore 246,Maison,MaghrebStore,1271.84
+P0247,Disque SSD DigitalPro 247,Informatique,DigitalPro,4138.31
+P0248,Chaussures EcoPlus 248,Mode,EcoPlus,1006.54
+P0249,Tapis de sport CasaPro 249,Sport,CasaPro,2421.88
+P0250,Power Bank Zenith 250,Téléphonie,Zenith,3086.43
+P0251,Rideaux Zenith 251,Maison,Zenith,188.79
+P0252,Power Bank Orion 252,Téléphonie,Orion,11258.89
+P0253,Chaise AtlasTech 253,Maison,AtlasTech,878.21
+P0254,Table Nova 254,Maison,Nova,2225.67
+P0255,Souris SmartLine 255,Informatique,SmartLine,6678.28
+P0256,Tapis de sport SmartLine 256,Sport,SmartLine,1259.21
+P0257,Clavier MaghrebStore 257,Informatique,MaghrebStore,11411.42
+P0258,Power Bank Orion 258,Téléphonie,Orion,11372.56
+P0259,Chaise MaghrebStore 259,Maison,MaghrebStore,137.22
+P0260,Chaussures Alpha 260,Mode,Alpha,1220.1
+P0261,T-shirt AtlasTech 261,Mode,AtlasTech,114.57
+P0262,Sac Zenith 262,Mode,Zenith,2157.72
+P0263,Disque SSD Orion 263,Informatique,Orion,862.65
+P0264,Crème Alpha 264,Beauté,Alpha,850.57
+P0265,Mixeur Orion 265,Électroménager,Orion,1636.41
+P0266,Ballon SmartLine 266,Sport,SmartLine,890.66
+P0267,Souris SmartLine 267,Informatique,SmartLine,1330.89
+P0268,Souris Alpha 268,Informatique,Alpha,9032.84
+P0269,PC Portable SmartLine 269,Informatique,SmartLine,9798.31
+P0270,Smartphone CasaPro 270,Téléphonie,CasaPro,5403.03
+P0271,Chaise Nova 271,Maison,Nova,906.69
+P0272,Chaussures CasaPro 272,Mode,CasaPro,1535.0
+P0273,Livre Python MaghrebStore 273,Livres,MaghrebStore,86.59
+P0274,Veste Nova 274,Mode,Nova,2249.22
+P0275,Veste EcoPlus 275,Mode,EcoPlus,2356.5
+P0276,Table DigitalPro 276,Maison,DigitalPro,2237.8
+P0277,Sac de sport DigitalPro 277,Sport,DigitalPro,305.73
+P0278,Vélo d'appartement Zenith 278,Sport,Zenith,1241.21
+P0279,Chargeur CasaPro 279,Téléphonie,CasaPro,10136.75
+P0280,Chaussures DigitalPro 280,Mode,DigitalPro,566.39
+P0281,Haltères AtlasTech 281,Sport,AtlasTech,2445.88
+P0282,Livre Business MaghrebStore 282,Livres,MaghrebStore,52.99
+P0283,Clavier EcoPlus 283,Informatique,EcoPlus,7161.82
+P0284,Chaise AtlasTech 284,Maison,AtlasTech,733.78
+P0285,Sèche-cheveux AtlasTech 285,Beauté,AtlasTech,1039.44
+P0286,Sèche-cheveux AtlasTech 286,Beauté,AtlasTech,292.6
+P0287,Crème Alpha 287,Beauté,Alpha,653.02
+P0288,Chaise DigitalPro 288,Maison,DigitalPro,1919.34
+P0289,Disque SSD Nova 289,Informatique,Nova,11091.71
+P0290,Tapis SmartLine 290,Maison,SmartLine,1905.27
+P0291,Sac de sport Alpha 291,Sport,Alpha,2171.07
+P0292,PC Portable DigitalPro 292,Informatique,DigitalPro,4810.3
+P0293,Tapis Orion 293,Maison,Orion,1088.4
+P0294,Table Alpha 294,Maison,Alpha,1194.96
+P0295,Chemise AtlasTech 295,Mode,AtlasTech,737.72
+P0296,Chaise SmartLine 296,Maison,SmartLine,1939.78
+P0297,Lampe Zenith 297,Maison,Zenith,1016.77
+P0298,Lampe EcoPlus 298,Maison,EcoPlus,1665.11
+P0299,PC Portable EcoPlus 299,Informatique,EcoPlus,6929.18
+P0300,Ballon CasaPro 300,Sport,CasaPro,1137.33

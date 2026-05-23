@@ -1,0 +1,16 @@
+id_transporteur,nom_transporteur,type_livraison
+T001,Amana Express,Standard
+T002,ChronoMaroc,Express
+T003,CasaDelivery,Standard
+T004,SpeedLog,Express
+T005,Atlas Livraison,Standard
+T006,EcoTransport,Express
+T007,Nord Express,Express
+T008,Sud Logistic,Point relais
+T009,FastRelay,Point relais
+T010,Med Shipping,Standard
+T011,Maroc Colis,Express
+T012,Urban Delivery,Standard
+T013,Sahara Express,Point relais
+T014,QuickPost,Standard
+T015,Ecom Fleet,Express
