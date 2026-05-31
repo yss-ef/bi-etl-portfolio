@@ -1,16 +1,23 @@
-# Visual Intelligence & Dashboarding
+# Visual intelligence and dashboarding
 
-## Key Performance Indicators (KPIs)
-The data warehouse is prepared to expose the following business intelligence metrics:
+The data warehouse is configured to expose business intelligence metrics
+through dashboards.
 
-*   **Occupancy Rate**: Percentage of rooms occupied vs. total capacity across different branch locations.
-*   **Revenue per Available Room (RevPAR)**: Branch performance comparison metrics.
-*   **Canal Performance**: Analyzing which booking channels (Web, Direct, Agency) yield the highest ROI.
-*   **Customer Segmentation**: Identification of "Star" branches vs. "Growth" branches.
+## Key performance indicators
 
-## Dashboard Design
-*   **Tool**: PowerBI / Tableau Readiness
-*   **Structure**: Hierarchical drill-down from global chain performance to individual room metrics.
+- Occupancy rate: The percentage of rooms occupied versus total capacity
+  across branch locations.
+- Revenue per available room (RevPAR): Used for branch performance comparison.
+- Channel performance: Analyzes which booking channels yield the highest
+  return on investment.
+- Customer segmentation: Identifies high-performing versus developing
+  branches.
 
-Authored by Youssef Fellah.  
-Developed for the Engineering Cycle - Mundiapolis University.
+## Dashboard design
+
+- Tool: PowerBI and Tableau readiness.
+- Structure: Provides hierarchical drill-down from global chain performance to
+  individual room metrics.
+
+Authored by Youssef Fellah.
+Developed for the Engineering Cycle at Mundiapolis University.

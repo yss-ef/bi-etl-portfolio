@@ -1,55 +1,60 @@
-# BI & ETL Portfolio: Data Engineering & Analytics
+# BI and ETL portfolio: data engineering and analytics
 
-This repository contains a collection of Business Intelligence and ETL labs and assignments, demonstrating end-to-end data warehousing solutions.
+This repository contains a collection of Business Intelligence (BI) and ETL
+laboratories and assignments. These projects demonstrate end-to-end data
+warehousing solutions.
 
-## Repository Structure
+## Repository structure
 
 ```text
 .
-├── labs/                        # Academic Labs (Hotel BI Project)
-│   ├── lab1/                    # BI Foundations
-│   ├── lab2/                    # Data Modeling & Star Schemas
-│   ├── lab3/                    # ETL Processes & Pentaho Basics
-│   └── lab4/                    # Final Hotel Data Warehouse
+├── labs/                        # Academic labs (Hotel BI project)
+│   ├── lab1/                    # BI foundations
+│   ├── lab2/                    # Data modeling and star schemas
+│   ├── lab3/                    # ETL processes and Pentaho basics
+│   └── lab4/                    # Final hotel data warehouse
 │       ├── business-requirements-04.pdf
-│       └── hotel-data-warehouse/ # Hotel Analytics System
-│           ├── data-sources/    # Raw Operational Data
-│           ├── etl-pipeline/    # PDI/Kettle Orchestration
-│           └── reports/         # KPI Dashboards
-├── projects/                    # Major Projects & Assignments
-│   ├── e-commerce-bi-assignment/ # E-Commerce Sales & Logistics Analysis
-│   │   ├── data/                # Raw CSV Sources
-│   │   ├── etl/                 # Pentaho ETL Transformations
-│   │   ├── sql/                 # Database Schema (PostgreSQL)
-│   │   └── docs/                # Final Report & Visualizations
-│   └── medical-center-bi/       # Medical Center Analytics
-│       ├── data/                # Healthcare CSV Datasets
-│       ├── etl/                 # Pentaho ETL Transformations
-│       ├── scripts/             # SQL Schema & Scripts
-│       └── docs/                # Reports & Dashboard Screenshots
-└── LICENSE                      # Project License
+│       └── hotel-data-warehouse/ # Hotel analytics system
+│           ├── data-sources/    # Raw operational data
+│           ├── etl-pipeline/    # PDI/Kettle orchestration
+│           └── reports/         # KPI dashboards
+├── projects/                    # Major projects and assignments
+│   ├── e-commerce-bi-assignment/ # E-Commerce sales and logistics analysis
+│   │   ├── data/                # Raw CSV sources
+│   │   ├── etl/                 # Pentaho ETL transformations
+│   │   ├── sql/                 # Database schema (PostgreSQL)
+│   │   └── docs/                # Final report and visualizations
+│   └── medical-center-bi/       # Medical center analytics
+│       ├── data/                # Healthcare CSV datasets
+│       ├── etl/                 # Pentaho ETL transformations
+│       ├── scripts/             # SQL schema and scripts
+│       └── docs/                # Reports and dashboard screenshots
+└── LICENSE                      # Project license
 ```
 
----
+## Featured projects
 
-## Featured Projects
+### 1. Hotel data warehouse (Lab 4)
 
-### 1. Hotel Data Warehouse (Lab 4)
-*   **Location:** `labs/lab4/hotel-data-warehouse/`
-*   **Focus:** Centralizing fragmented hotel data into a unified Star Schema for operational reporting.
-*   **Tech:** Pentaho Data Integration, Star Schema, PowerBI readiness.
+- Location: `labs/lab4/hotel-data-warehouse/`
+- Focus: Centralizes fragmented hotel data into a unified star schema for
+  operational reporting.
+- Tech: Pentaho Data Integration, Star Schema, PowerBI.
 
-### 2. E-Commerce Sales & Logistics Assignment
-*   **Location:** `projects/e-commerce-bi-assignment/`
-*   **Focus:** Analyzing sales performance and logistics efficiency for an e-commerce platform. Includes customer segmentation and carrier performance tracking.
-*   **Tech:** PostgreSQL, Pentaho (PDI), Metabase Dashboarding.
+### 2. E-Commerce sales and logistics assignment
 
-### 3. Medical Center BI Analysis
-*   **Location:** `projects/medical-center-bi/`
-*   **Focus:** End-to-end BI solution for a medical center, analyzing consultations, patient flow, and payment tracking.
-*   **Tech:** Pentaho Data Integration, Star Schema, Metabase Dashboarding.
+- Location: `projects/e-commerce-bi-assignment/`
+- Focus: Analyzes sales performance and logistics efficiency for an e-commerce
+  platform. This includes customer segmentation and carrier performance
+  tracking.
+- Tech: PostgreSQL, Pentaho (PDI), Metabase Dashboarding.
 
----
+### 3. Medical center BI analysis
 
-**Authored by Youssef Fellah**  
-*Engineering Student at Mundiapolis University*
+- Location: `projects/medical-center-bi/`
+- Focus: Provides an end-to-end BI solution for a medical center, analyzing
+  consultations, patient flow, and payment tracking.
+- Tech: Pentaho Data Integration, Star Schema, Metabase Dashboarding.
+
+Authored by Youssef Fellah.
+Developed for the Engineering Cycle at Mundiapolis University.

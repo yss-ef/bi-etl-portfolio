@@ -1,50 +1,52 @@
-# Solution BI - Centre Médical Privé
+# Medical center BI solution
 
-Ce projet consiste en la mise en place d'une chaîne décisionnelle complète pour un centre médical, permettant d'analyser les consultations, les performances des médecins, la satisfaction (retards) et la santé financière (CA et recouvrement).
+This project implements a complete decision-making chain for a medical center.
+It allows for the analysis of consultations, physician performance, patient
+satisfaction, and financial health.
 
-## Aperçu du Projet
-Le projet suit l'architecture classique d'un entrepôt de données (Data Warehouse) :
-1.  Sources : Fichiers CSV (patients, médecins, services, paiements, consultations).
-2.  ETL : Pentaho Data Integration (PDI) pour le nettoyage, la transformation et le chargement.
-3.  Stockage : Base de données PostgreSQL (Modèle en étoile).
-4.  Visualisation : Power BI pour le reporting décisionnel.
+## Project overview
 
-## Structure du Répertoire
-```text
-/
-├── data/                    # Fichiers sources CSV
-├── etl/                     # Transformations (.ktr)
-├── scripts/                 # Scripts SQL de création des tables
-├── docs/                    # Documentation, schémas et rapports PDF
-├── README.md                # Documentation principale
-└── RESPONSE.md              # Réponses détaillées aux questions de l'examen
-```
+The solution follows a standard data warehouse architecture:
+1. Sources: CSV files containing patient, physician, service, payment, and
+   consultation data.
+2. ETL: Pentaho Data Integration (PDI) for cleaning, transformation, and
+   loading.
+3. Storage: PostgreSQL database using a star schema.
+4. Visualization: Power BI for decision-making reports.
 
-## Configuration et Installation
+## Directory structure
 
-### 1. Base de Données (PostgreSQL)
-Exécutez les scripts présents dans scripts/sql/ pour créer la structure du Data Warehouse :
--   Création des dimensions : dim_patient, dim_medecin, dim_service, dim_paiement, dim_temps.
--   Création de la table de faits : fact_consultation.
+- `data/`: Source CSV files.
+- `etl/`: Pentaho transformations.
+- `scripts/`: SQL scripts for database creation.
+- `docs/`: Documentation, schemas, and reports.
+- `RESPONSE.md`: Detailed responses to project requirements.
 
-### 2. ETL (Pentaho)
-Les transformations se trouvent dans le dossier etl/. 
-Elles doivent être exécutées pour :
-1.  Charger les dimensions.
-2.  Charger la table de faits (avec calculs du montant net et des retards).
+## Configuration and installation
 
-### 3. Visualisation (Power BI)
-Connectez Power BI à votre instance PostgreSQL pour visualiser les 3 pages de rapport :
--   Page 1 : Vue globale de l'activité (CA, Volume).
--   Page 2 : Analyse par Spécialité et Médecin.
--   Page 3 : Qualité de service (Retards) et Paiements.
+### 1. Database setup
 
-## Indicateurs Clés (KPI)
--   CA Net Global : ~346k MAD.
--   Taux de Retard : 59.58% (Point critique identifié).
--   Taux de Non-Paiement : 21.92%.
--   Spécialité leader : Médecine Générale.
--   Médecin le plus actif : Dr. Amina Bennani.
+Run the SQL scripts to initialize the data warehouse structure, including the
+dimension tables (`dim_patient`, `dim_medecin`, `dim_service`, `dim_paiement`,
+`dim_temps`) and the fact table (`fact_consultation`).
 
-## Auteur
-- Youssef - Projet de Business Intelligence 2026
+### 2. ETL process
+
+Execute the Pentaho transformations to load the dimension tables and the fact
+table. The process includes calculations for net amounts and delivery delays.
+
+### 3. Visualization
+
+Connect Power BI to the PostgreSQL instance to view reports on activity,
+specialties, and service quality.
+
+## Key performance indicators
+
+- Global net revenue: Approximately 346,000 MAD.
+- Delay rate: 59.58%.
+- Non-payment rate: 21.92%.
+- Leading specialty: General Medicine.
+- Most active physician: Dr. Amina Bennani.
+
+Authored by Youssef Fellah.
+Business Intelligence project.
